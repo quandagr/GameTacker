@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body{
+ @apply bg-green-600/50
+}
+img{
+    height: 400px;
+    width: 400px;
+}
