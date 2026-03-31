@@ -5,7 +5,7 @@ export const GameCard = ({game, onDelete}) => {
   return (
     <div >
 
-        <div className=" bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs">
+        <div className=" bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-baserounded-md shadow-xs">
     <h5 className="mb-3 text-2xl text-white font-semibold tracking-tight text-heading leading-8">{game.title}</h5>
     <p className="text-white text-body mb-6 font-bold">{game.rating}</p>
     <p className="text-white text-body mb-6 font-bold">{game.genre}</p>
